@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5%;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo b{
+    font-size: 3vh;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+.fa-cart-shopping {
+    font-size: 4vh;
+}
+.fa-magnifying-glass{
+    font-size: 3vh;
+}
