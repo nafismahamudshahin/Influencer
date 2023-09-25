@@ -83,3 +83,17 @@ img{
     font-size: 17px;
     margin-bottom: 30px;
 }
+/* ----------------------
+    all company lish 
+------------------------- */
+.container{
+    padding: 10vh 0px;
+    width: 80%;
+    margin: auto;
+}
+.companys{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: space-between;
+    justify-items: center
+}
