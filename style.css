@@ -98,6 +98,10 @@ img{
     justify-items: center
 }
 /* ours popular collection style section */
+.containerss{
+    display: flex;
+    flex-direction: column;
+}
 .section-title{
     display: flex;
     justify-content: center;
@@ -142,4 +146,40 @@ article{
 .rating{
     display: flex;
     column-gap: 10px;
+}
+.see-more-btn{
+    text-decoration: none;
+    color: #E02C6D;
+    margin-left: 1150px;
+}
+/* --------------------------------
+    Feruture products
+----------------------------------- */
+.featured-products{
+    display: flex;
+    margin: 0px 11%;
+    column-gap: 100px;
+}
+.col-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-col-2 img{
+    width: 404px;
+    height: 270px;
+}
+.col-col-2 strong{
+    font-size: 38px;
+}
+.dispiction-2{
+    width: 500px;
+}
+.btn-2{
+    text-decoration: none;
+    background-color: #E02C6D;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #FFF;
 }
